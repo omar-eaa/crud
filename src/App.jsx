@@ -25,7 +25,9 @@ async function fetchUsers(){
   return (
     <>
     <main className='app'>
-        <h1>My first react app</h1>
+        <h1>Users</h1>
+
+        
 <section className='grid'>
   {users.map(user =>(
   <User key={user.id} name={user.name} mail={user.mail} image={user.image}/>
